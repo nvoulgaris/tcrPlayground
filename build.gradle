@@ -1,0 +1,18 @@
+plugins {
+    id 'groovy'
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.30'
+}
+
+group 'com.nvoulgaris'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.codehaus.groovy:groovy-all:2.3.11")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib")
+    testCompile("org.spockframework:spock-core:1.2-groovy-2.4")
+}
