@@ -17,5 +17,6 @@ class FizzBuzzWoofSpec extends Specification {
       2     || "2"
       3     || "Fizz"
       4     || "4"
+      5     || "Buzz"
   }
 }
