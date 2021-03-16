@@ -14,5 +14,6 @@ class FizzBuzzWoofSpec extends Specification {
     where:
       input || expectedOutput
       1     || "1"
+      2     || "2"
   }
 }
