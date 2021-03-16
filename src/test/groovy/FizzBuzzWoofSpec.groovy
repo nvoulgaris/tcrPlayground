@@ -15,6 +15,6 @@ class FizzBuzzWoofSpec extends Specification {
       input || expectedOutput
       1     || "1"
       2     || "2"
-      3     || "3"
+      3     || "Fizz"
   }
 }
