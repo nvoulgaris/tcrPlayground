@@ -8,8 +8,11 @@ class FizzBuzzWoofSpec extends Specification {
     given:
       FizzBuzzWoof fizzBuzzWoof = new FizzBuzzWoof()
     when:
-      String result = fizzBuzzWoof.of(1)
-    then: 
-      result == "1"
+      String result = fizzBuzzWoof.of(input)
+    then:
+      result == expectedOutput
+    where:
+      input || expectedOutput
+      1     || "1"
   }
 }
